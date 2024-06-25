@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>Google Images</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navlist">
+            <ul class="listitems" style="list-style-type: none;">
+                <li class="item"><a href="index.html">Search</a></li>
+                <li class="item"><a href="advanced_search.html">Advanced search</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <img src="./images/Google-Logo2.png" alt="Google Logo2" id="logo">
+        <form action="http://images.google.com/images" method="get">
+            <div class="search_field">
+                <span id="search_icon"></span>
+                <input id="search_box" type="text" name="q">
+            </div>
+            <div class="buttons">
+                <input class="submit_btn" id="search_btn" type="submit" value="Search Image">
+            </div>
+        </form>
+    </main>
+
+
+</body>
+</html>

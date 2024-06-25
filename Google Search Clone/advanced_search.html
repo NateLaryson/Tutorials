@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .navbar{
+            height: auto;
+        }
+        .navlist{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+    
+    <title>Google Advanced Search</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navlist">
+            <div class="logo"><span><img src="./images/Google-Logo.png" alt="" id="glogo"></span></div>
+            <ul class="listitems" style="list-style-type: none;">
+                <li class="item"><a href="index.html">Google Search</a></li>
+                <li class="item"><a href="images_search.html">Image search</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="padding: 0;">
+        <div class="ad_label">
+            <label id="ads_label" style="margin-left: 10px;">Advanced Search</label>
+        </div>
+        <hr>
+        <form action="https://google.com/search" method="get">
+            <div class="form_container" style="text-align: left;">
+                <div class="fields">
+                    <div class="labels"><Span>Find pages with...</Span></div>
+                    <div class="inputs"></div>
+                </div>
+                <div class="fields">
+                    <div class="labels"><label for="">all these words:</label></div>
+                    <div class="inputs"><input class="txt_input" type="text" name="as_q"></div>
+                </div>
+                <div class="fields">
+                    <div class="labels"><label for="">this exact word or phrase:</label></div>
+                    <div class="inputs"><input class="txt_input" type="text" name="as_epq"></div>
+                </div>
+                <div class="fields">
+                    <div class="labels"><label for="">any of these words:</label></div>
+                    <div class="inputs"><input class="txt_input" type="text" name="as_oq"></div>
+                </div>
+                <div class="fields">
+                    <div class="labels"><label for="">none of these words:</label></div>
+                    <div class="inputs"><input class="txt_input" type="text" name="as_eq"></div>
+                </div>
+                <div class="fields">
+                    <div class="ads_submit"><input type="submit" class="submit_btn" value="Advanced Search"></div>
+                </div>
+            </div>
+            
+        </form>
+    </main>
+
+
+</body>
+</html>

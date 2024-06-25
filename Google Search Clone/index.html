@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Google</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navlist">
+            <ul class="listitems" style="list-style-type: none;">
+                <li class="item"><a href="images_search.html">Images</a></li>
+                <li class="item"><a href="advanced_search.html">Advanced search</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <img src="./images/Google-Logo.png" alt="Google Logo" id="logo">
+        <form action="https://google.com/search">
+            <div class="search_field">
+                <span id="search_icon"></span>
+                <input id="search_box" type="text" name="q">
+            </div>
+            <div class="buttons" style="display: flex; justify-content: center;">
+                <div class="">
+                    <input class="submit_btn" id="search_btn" type="submit" value="Google Search">
+                </div>
+                <div>
+                    <input class="submit_btn" id="lucky_btn" type="submit" value="I'm Feeling Lucky" name="btnI">
+                </div>
+            </div>
+        </form>
+    </main>
+
+
+</body>
+</html>
